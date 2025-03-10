@@ -5,21 +5,21 @@ my-project/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── assets/
-│   │   └── images/
-│   │   └── icons/
-│   ├── components/
-│   │   ├── common/        # Komponen yang digunakan di banyak tempat
-│   │   ├── layout/        # Komponen layout (Navbar, Footer, Sidebar)
-│   │   ├── ui/            # Komponen UI (Button, Card, Modal, dll)
-│   │   └── forms/         # Komponen untuk formulir (Input, Textarea, Form)
-│   ├── pages/
-│   │   ├── Home/          # Halaman utama
-│   │   ├── About/         # Halaman tentang
-│   │   └── Contact/       # Halaman kontak
-│   ├── hooks/             # Custom hooks
-│   ├── utils/             # Fungsi atau utilitas yang bisa digunakan di mana saja
-│   ├── context/           # Provider dan Context API untuk state global
-│   ├── services/          # File untuk API calls atau komunikasi server
-│   ├── App.js             # File utama aplikasi React
-│   └── index.js           # Titik masuk aplikasi React
+    ├── assets/
+    │   └── images/
+    │   └── icons/
+    ├── components/
+    │   ├── common/        # Komponen yang digunakan di banyak tempat
+    │   ├── layout/        # Komponen layout (Navbar, Footer, Sidebar)
+    │   ├── ui/            # Komponen UI (Button, Card, Modal, dll)
+    │   └── forms/         # Komponen untuk formulir (Input, Textarea, Form)
+    ├── pages/
+    │   ├── Home/          # Halaman utama
+    │   ├── About/         # Halaman tentang
+    │   └── Contact/       # Halaman kontak
+    ├── hooks/             # Custom hooks
+    ├── utils/             # Fungsi atau utilitas yang bisa digunakan di mana saja
+    ├── context/           # Provider dan Context API untuk state global
+    ├── services/          # File untuk API calls atau komunikasi server
+    ├── App.js             # File utama aplikasi React
+    └── index.js           # Titik masuk aplikasi React
