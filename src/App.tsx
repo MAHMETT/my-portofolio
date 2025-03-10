@@ -1,5 +1,6 @@
 // import Main from './components/UI/Background';
 
+import { Hero } from './components/Layout/Hero';
 import Navbar from './components/Layout/Navbar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <main>
         <Navbar />
+        <Hero />
       </main>
     </>
   );
