@@ -80,22 +80,22 @@ export const workData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: '/images/work-1.png',
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: '/images/work-2.png',
     },
     {
         title: 'Photography site',
         description: 'Web Design',
-        bgImage: '/work-3.png',
+        bgImage: '/images/work-3.png',
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: '/images/work-4.png',
     },
 ];
 
@@ -111,7 +111,7 @@ export const serviceData = [
         icon: assets.mobile_icon,
         title: 'Mobile app',
         description:
-            'Mobile app development involves creating software for mobile devices...',
+            'Mobile app development involves creating software for mobile devices jdfkjfdofkdflg dkljflkdfjl; jdlkfjldjfldsj klfjldsjl...',
         link: '',
     },
     {

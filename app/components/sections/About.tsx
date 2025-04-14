@@ -1,10 +1,10 @@
-import { assets, infoList } from '@/assets/assets';
+import { assets, infoList, toolsData } from '@/assets/assets';
 import Image from 'next/image';
 import React from 'react';
 
 const About = () => {
     return (
-        <div className="w-full px-[12%] py-10 scroll-mt-20">
+        <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
             <h4 className="text-center mb-2 text-lg">Introduction</h4>
             <h2 className="text-center text-5xl">About me</h2>
             <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
@@ -15,7 +15,7 @@ const About = () => {
                         className="w-full rounded-3xl"
                     />
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 space-y-3">
                     <p>
                         I am an experience Frontend Developer with over a
                         decadee of professional expertise in the field.
@@ -29,7 +29,7 @@ const About = () => {
                             ({ icon, iconDark, title, description }, index) => (
                                 <li
                                     key={index}
-                                    className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer"
+                                    className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightover hover:-translate-y-1 duration-500 hover:shadow-black"
                                 >
                                     <Image
                                         src={icon}
@@ -46,6 +46,26 @@ const About = () => {
                             ),
                         )}
                     </ul>
+
+                    <div className="flex-1">
+                        <h4 className="my-6 text-gray-700 font-bold">
+                            Tools I Use
+                        </h4>
+                        <ul className="flex items-center gap-3 sm:gap-5 ">
+                            {toolsData.map((tool, index) => (
+                                <li
+                                    className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-1 duration-300"
+                                    key={index}
+                                >
+                                    <Image
+                                        src={tool}
+                                        alt="Icon"
+                                        className="w-5 sm:w-7"
+                                    />
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

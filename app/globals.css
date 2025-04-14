@@ -21,6 +21,11 @@
 
 @theme {
     --font-quicksand: Quicksand, sans-serif;
+    --color-lightover: #fcf4ff;
+    --color-darkhover: #2a004a;
+    --shadow-black: 4px 4px #000;
+    --shadow-white: 4px 4px #fff;
+    --breakpoint-gridauto: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 @theme inline {
